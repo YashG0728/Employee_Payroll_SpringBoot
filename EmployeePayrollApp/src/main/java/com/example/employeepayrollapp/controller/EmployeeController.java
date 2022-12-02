@@ -45,7 +45,7 @@ public class EmployeeController {
     }
 
     //put
-    @PutMapping("/Update")
+    @PutMapping("/update")
     public EmployeeModel updateGreets(@RequestBody EmployeeModel employeeModel) {
         return employeeService.updateById(employeeModel);
     }
